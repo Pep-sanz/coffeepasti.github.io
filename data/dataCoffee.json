@@ -5,7 +5,7 @@
       "id": "EB0001",
       "name": "Latte",
       "price": "20K",
-      "poster": "../assets/latte.jpg",
+      "poster": "./assets/latte.jpg",
       "deskrption": "Latte, kombinasi harmonis antara espresso yang kuat dan susu lembut yang dihancurkan. Dengan lapisan krima yang halus, latte menawarkan pengalaman kopi yang creamy dan memanjakan, menciptakan keseluruhan cita rasa yang seimbang."
     },
     {
@@ -13,7 +13,7 @@
       "id": "EB0002",
       "name": "Americano",
       "price": "30K",
-      "poster": "../assets/americano.jpg",
+      "poster": "./assets/americano.jpg",
       "deskrption": "Americano, kopi yang sederhana namun kuat, terdiri dari espresso dan air panas. Dengan rasa kopi yang tajam dan karakteristik, Americano adalah pilihan yang jelas bagi mereka yang mencari pengalaman kopi langsung dan tanpa komplikasi."
     },
     {
