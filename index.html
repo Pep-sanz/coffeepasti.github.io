@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>coffee pasti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- bootrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,400;1,500&family=Roboto:ital,wght@0,500;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="coffee-pasti">
+      <!-- navbar start -->
+      <nav class="container-navbar">
+        <a href="#" class="logo"><span>Coffee</span> Pasti</a>
+        <ul class="wrapper-list">
+          <li><a href="#home">home</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#tentang">tentang kami</a></li>
+          <li><a href="#kontak">kontak</a></li>
+        </ul>
+        <div class="wrapper-toggle">
+          <a class="bi bi-search text-light" data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
+          <a class="p bi-cart3 text-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> </a>
+          <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar and -->
+      <!-- hero section start -->
+      <div class="hero-section" id="home">
+        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">trolli</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-light">
+            <div>jdshafiuash</div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+              <div class="modal-header wrapper-search">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control input-search" placeholder="Search"/>
+                  <button class="btn btn-outline-secondary btn-search" type="button" id="button-addon2">Search</button>
+                </div>
+              </div>
+              <div class="modal-body row"></div>
+              <div class="modal-footer"></div>
+            </div>
+          </div>
+        </div>
+
+        <main>
+          <p>Kopi yang Pasti, Kehangatan yang Pasti. Selamat Datang di <span>Coffee Pasti</span></p>
+          <a class="cta" href="#menu">Beli Sekarang</a>
+        </main>
+      </div>
+      <!-- hero section and -->
+
+      <!-- menu section start -->
+      <section class="menu-section" id="menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2><span>Menu</span> Kami</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus placeat eum molestias officiis dolorum.</p>
+            </div>
+            <!-- categori start -->
+            <div class="container-fluid kategori navbar-expand">
+              <a class="navbar-brand fs-4 me-5 text-dark" href="#menu">kategori</a>
+              <div class="row kategori-menu" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-between">
+                  <li class="nav-item">
+                    <a class="nav-link active kategori-btn me-4 " href="#menu">All menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link kategori-btn me-4" href="#menu">EspressoBased</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link kategori-btn me-4" href="#menu">Iced Coffees</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link kategori-btn me-4" href="#menu">Blended Drinks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link kategori-btn me-4" href="#menu">Flavored Coffees</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- categori end -->
+            <div class="coll mt-5"><h1 class="text-start header-kategori">All menu</h1></div>
+            <div class="row wrapper-card mt-3"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- menu section and -->
+
+      <!-- tentang kami start -->
+      <section class="tentang-kami" id="tentang">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2><span>tentang</span> kami</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quasi dolorum tempora voluptas repellendus dolorem. lor</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6 mb-5">
+              <img src="./assets/poto1.jpg" alt="" style="max-width: 300px; min-height: 150px" />
+            </div>
+            <div class="col-md-6 mb-5 text-start">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut dolorem ratione eaque ipsum earum sit eveniet, impedit aspernatur vel! Aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
+                deserunt repudiandae modi tempora ut iure nostrum dolorem, sunt recusandae impedit in libero assumenda facere eligendi provident. Repudiandae, nihil possimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- tentang kami and -->
+
+      <!-- kontak start -->
+      <section class="kontak" id="kontak">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h2><span>kontak</span> kami</h2>
+              <p>untuk pemesanan hubungi kontak kami di bawah ini</p>
+            </div>
+          </div>
+          <div class="row mt-5 text-center">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/gmailLogo.jpg" class="card-img-top" alt="gmail" />
+                <div class="card-body">
+                  <h5 class="card-title">gmail</h5>
+                  <a href="#" class="btn btn-primary">hubungi saya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/igLogo.jpg" class="card-img-top" alt="instagram" />
+                <div class="card-body">
+                  <h5 class="card-title">instagram</h5>
+                  <a href="#" class="btn btn-primary">hubungi saya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/waLogo.jpg" class="card-img-top" alt="whatshapp" />
+                <div class="card-body">
+                  <h5 class="card-title">whatshapp</h5>
+                  <a href="#" class="btn btn-primary">hubungi saya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- kontak and -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

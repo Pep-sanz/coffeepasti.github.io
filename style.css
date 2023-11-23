@@ -1,0 +1,358 @@
+:root {
+  ---primary: #b6895b;
+  ---text-color: #f4fefd;
+  ---bg-primary: rgb(25, 25, 25);
+  ---bg-secoundry: rgba(126, 126, 126, 0.237);
+  ---box-shadow: ;
+  ---text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.coffee-pasti {
+  width: 100%;
+  height: auto;
+  color: var(---text-color);
+  background-color: var(---bg-primary);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: var(---bg-primary);
+  backdrop-filter: blur(3px);
+  box-shadow: var(---box-shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+}
+
+nav .logo {
+  margin-left: 2em;
+  margin-right: 1em;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 3rem;
+  width: 20rem;
+  color: var(---text-color);
+  z-index: -1;
+}
+
+nav .logo span {
+  text-decoration: none;
+  /* letter-spacing: 3px; */
+  font-weight: 700;
+  color: var(---primary);
+  z-index: -1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: 0 1em 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(---text-color);
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(---primary);
+}
+
+.wrapper-toggle {
+  max-width: 300px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 2em;
+  margin-right: 3em;
+}
+
+.wrapper-toggle i,
+.wrapper-toggle i a {
+  cursor: pointer;
+  z-index: -2;
+}
+
+/* hamburger menu */
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  position: relative;
+  margin-right: 3rem;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: var(---primary);
+  transition: all 0.5s;
+}
+
+/* maburger menu animation */
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: var(---text-color);
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: var(---text-color);
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+/* hero section */
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  padding: 1.4em 7%;
+}
+
+.hero-section main {
+  max-width: 40rem;
+}
+
+.hero-section main p {
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: var(---text-shadow);
+  margin-bottom: 2rem;
+}
+
+.hero-section main p span {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(---primary);
+}
+
+.hero-section main .cta {
+  text-decoration: none;
+  background-color: var(---primary);
+  color: var(---text-color);
+  padding: 0.5em;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* menu section */
+
+.menu-section {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 5em 0 ;
+}
+
+.menu-section .kategori {
+  background-color: var(---primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 3em;
+  position: sticky;
+  top: 60px;
+  z-index: 99;
+}
+.menu-section .kategori .nav-link {
+  color: var(---text-color);
+  font-size: 1.3rem;
+}
+
+.menu-section .col-md-12,
+.tentang-kami .col-md-12,
+.kontak .col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.menu-section .col-md-12 h2 span,
+.tentang-kami .col-md-12 h2 span,
+.kontak .col-md-12 h2 span {
+  color: var(---primary);
+}
+
+.menu-section .col-md-12 p,
+.tentang-kami .col-md-12 p,
+.kontak .col-md-12 {
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-top: .5em;
+}
+
+.menu-section .wrapper-card .card {
+  cursor: pointer;
+}
+
+/* tentang kami section */
+
+.tentang-kami {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 6em;
+}
+
+/* kontak */
+
+.kontak {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+.kontak .card {
+  background-color: var(---bg-secoundry);
+  border-radius: 10px;
+}
+
+.kontak .card img {
+  border-radius: 3px;
+}
+
+.kontak .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  color: var(---text-color);
+}
+
+/* media query */
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  html {
+    font-size: 75%;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    margin: 0;
+    padding-top: 5em;
+    gap: 3em;
+    transform: translatex(100%);
+    transition: all 1s;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translatex(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 73%;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    margin: 0;
+    padding-top: 5em;
+    gap: 3em;
+    transform: translatex(100%);
+    transition: all 1s;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  nav .logo {
+    font-size: 2rem;
+    margin-left: 0.5em;
+    margin-right: 1em;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translatex(0);
+  }
+
+  nav .wrapper-toggle {
+    margin-right: 1em;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}

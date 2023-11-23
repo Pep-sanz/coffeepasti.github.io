@@ -1,0 +1,124 @@
+{
+  "menu": [
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0001",
+      "name": "Latte",
+      "price": "20K",
+      "poster": "../assets/latte.jpg",
+      "deskrption": "Latte, kombinasi harmonis antara espresso yang kuat dan susu lembut yang dihancurkan. Dengan lapisan krima yang halus, latte menawarkan pengalaman kopi yang creamy dan memanjakan, menciptakan keseluruhan cita rasa yang seimbang."
+    },
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0002",
+      "name": "Americano",
+      "price": "30K",
+      "poster": "../assets/americano.jpg",
+      "deskrption": "Americano, kopi yang sederhana namun kuat, terdiri dari espresso dan air panas. Dengan rasa kopi yang tajam dan karakteristik, Americano adalah pilihan yang jelas bagi mereka yang mencari pengalaman kopi langsung dan tanpa komplikasi."
+    },
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0003",
+      "name": "Espresso",
+      "price": "45K",
+      "poster": "../assets/espresso.jpg",
+      "deskrption": "Espresso, fondasi dari banyak minuman kopi, adalah konsentrasi kopi yang kuat yang dihasilkan dengan memaksa air panas melalui bubuk kopi. Meski ukurannya kecil, espresso memiliki rasa yang intens dan kompleks, menjadi dasar bagi berbagai kreasi kopi."
+    },
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0004",
+      "name": "Cappuccino",
+      "price": "45K",
+      "poster": "../assets/cappuccino.jpg",
+      "deskrption": "Cappuccino, harmoni sempurna antara espresso yang kuat, susu panas, dan busa susu lembut. Dengan lapisan krima yang indah, cappuccino menyajikan rasa kopi yang kaya dalam cangkir kecil yang memanjakan."
+    },
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0005",
+      "name": "Macchiato",
+      "price": "45K",
+      "poster": "../assets/macchiato.jpg",
+      "deskrption": "Macchiato, sentuhan ringan espresso yang diberi 'coretan' susu. Minuman ini menyajikan kekuatan kopi yang murni, dengan tambahan kelembutan susu untuk menciptakan pengalaman yang sederhana namun penuh karakter."
+    },
+    {
+      "kategori": "EspressoBased",
+      "id": "EB0003",
+      "name": "Mocha",
+      "price": "45K",
+      "poster": "../assets/mocha.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Iced Coffees",
+      "id": "IC0001",
+      "name": "iced Americano",
+      "price": "45K",
+      "poster": "../assets/icedAmericano.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Iced Coffees",
+      "id": "IC0002",
+      "name": "iced Latte",
+      "price": "45K",
+      "poster": "../assets/icedLatte.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Iced Coffees",
+      "id": "IC0003",
+      "name": "iced Mocha",
+      "price": "45K",
+      "poster": "../assets/icedMocha.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Blended Drinks",
+      "id": "BD0001",
+      "name": "Coffee Frappe",
+      "price": "45K",
+      "poster": "../assets/CoffeeFrappe.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Blended Drinks",
+      "id": "BD0002",
+      "name": "Espresso Smoothie",
+      "price": "45K",
+      "poster": "../assets/EspressoSmoothie.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Blended Drinks",
+      "id": "BD0003",
+      "name": "Iced Blended Mocha",
+      "price": "45K",
+      "poster": "../assets/IcedBlendedMocha.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Flavored Coffees",
+      "id": "BD0003",
+      "name": "Hazelnut Latte",
+      "price": "45K",
+      "poster": "../assets/HazelnutLatte.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Flavored Coffees",
+      "id": "BD0003",
+      "name": "Vanilla Latte",
+      "price": "45K",
+      "poster": "../assets/VanillaLatte.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    },
+    {
+      "kategori": "Flavored Coffees",
+      "id": "BD0003",
+      "name": "Caramel Macchiato",
+      "price": "45K",
+      "poster": "../assets/CaramelMacchiato.jpg",
+      "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
+    }
+  ]
+}
