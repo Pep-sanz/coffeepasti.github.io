@@ -15,13 +15,13 @@
 }
 
 .coffee-pasti {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   color: var(---text-color);
   background-color: var(---bg-primary);
 }
 
-nav {
+nav.container-navbar {
   position: fixed;
   top: 0;
   background-color: var(---bg-primary);
@@ -192,13 +192,13 @@ nav ul li a:hover {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  padding: 5em 0 ;
+  padding: 5em 0;
 }
 
 .menu-section .kategori {
   background-color: var(---primary);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 50px;
@@ -207,9 +207,19 @@ nav ul li a:hover {
   top: 60px;
   z-index: 99;
 }
+
+.menu-section .kategori .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
 .menu-section .kategori .nav-link {
   color: var(---text-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .menu-section .col-md-12,
@@ -234,7 +244,7 @@ nav ul li a:hover {
   max-width: 500px;
   margin: auto;
   font-size: 1.3rem;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .menu-section .wrapper-card .card {

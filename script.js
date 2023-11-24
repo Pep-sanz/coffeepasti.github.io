@@ -68,7 +68,7 @@ wrapperSearch.addEventListener("change", function (e) {
 
 
 const myCard = (e) => {
-  return `<div class="col-md-4 mb-5">
+  return `<div class="col-md-4 mb-5 gap-3">
     <div class="card" data-id="${e.id}">
       <img src="${e.poster}" class="card-img-top" alt="latte" />
       <div class="card-body">
