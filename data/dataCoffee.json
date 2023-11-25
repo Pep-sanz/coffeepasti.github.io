@@ -5,7 +5,7 @@
       "id": "EB0001",
       "name": "Latte",
       "price": "20K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/latte.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/latte.jpg",
       "deskrption": "Latte, kombinasi harmonis antara espresso yang kuat dan susu lembut yang dihancurkan. Dengan lapisan krima yang halus, latte menawarkan pengalaman kopi yang creamy dan memanjakan, menciptakan keseluruhan cita rasa yang seimbang."
     },
     {
@@ -13,7 +13,7 @@
       "id": "EB0002",
       "name": "Americano",
       "price": "30K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/americano.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/americano.jpg",
       "deskrption": "Americano, kopi yang sederhana namun kuat, terdiri dari espresso dan air panas. Dengan rasa kopi yang tajam dan karakteristik, Americano adalah pilihan yang jelas bagi mereka yang mencari pengalaman kopi langsung dan tanpa komplikasi."
     },
     {
@@ -21,7 +21,7 @@
       "id": "EB0003",
       "name": "Espresso",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/espresso.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/espresso.jpg",
       "deskrption": "Espresso, fondasi dari banyak minuman kopi, adalah konsentrasi kopi yang kuat yang dihasilkan dengan memaksa air panas melalui bubuk kopi. Meski ukurannya kecil, espresso memiliki rasa yang intens dan kompleks, menjadi dasar bagi berbagai kreasi kopi."
     },
     {
@@ -29,7 +29,7 @@
       "id": "EB0004",
       "name": "Cappuccino",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/cappuccino.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/cappuccino.jpg",
       "deskrption": "Cappuccino, harmoni sempurna antara espresso yang kuat, susu panas, dan busa susu lembut. Dengan lapisan krima yang indah, cappuccino menyajikan rasa kopi yang kaya dalam cangkir kecil yang memanjakan."
     },
     {
@@ -37,7 +37,7 @@
       "id": "EB0005",
       "name": "Macchiato",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/macchiato.jpg",
+      "poster": https://pep-sanz.github.io/coffeepasti.github.io/assets/macchiato.jpg",
       "deskrption": "Macchiato, sentuhan ringan espresso yang diberi 'coretan' susu. Minuman ini menyajikan kekuatan kopi yang murni, dengan tambahan kelembutan susu untuk menciptakan pengalaman yang sederhana namun penuh karakter."
     },
     {
@@ -45,7 +45,7 @@
       "id": "EB0003",
       "name": "Mocha",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/mocha.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/mocha.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -53,7 +53,7 @@
       "id": "IC0001",
       "name": "iced Americano",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/icedAmericano.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/icedAmericano.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -61,7 +61,7 @@
       "id": "IC0002",
       "name": "iced Latte",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/icedLatte.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/icedLatte.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -69,7 +69,7 @@
       "id": "IC0003",
       "name": "iced Mocha",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/icedMocha.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/icedMocha.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -77,7 +77,7 @@
       "id": "BD0001",
       "name": "Coffee Frappe",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/CoffeeFrappe.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/CoffeeFrappe.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -85,7 +85,7 @@
       "id": "BD0002",
       "name": "Espresso Smoothie",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/EspressoSmoothie.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/EspressoSmoothie.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -93,7 +93,7 @@
       "id": "BD0003",
       "name": "Iced Blended Mocha",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/IcedBlendedMocha.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/IcedBlendedMocha.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -101,7 +101,7 @@
       "id": "BD0003",
       "name": "Hazelnut Latte",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/HazelnutLatte.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/HazelnutLatte.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -109,7 +109,7 @@
       "id": "BD0003",
       "name": "Vanilla Latte",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/VanillaLatte.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/VanillaLatte.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     },
     {
@@ -117,7 +117,7 @@
       "id": "BD0003",
       "name": "Caramel Macchiato",
       "price": "45K",
-      "poster": "https://raw.githubusercontent.com/Pep-sanz/coffeepasti.github.io/main/assets/CaramelMacchiato.jpg",
+      "poster": "https://pep-sanz.github.io/coffeepasti.github.io/assets/CaramelMacchiato.jpg",
       "deskrption": "Mocha, kombinasi manis antara espresso, susu panas, dan cokelat. Dengan rasa yang kaya dan nikmat, mocha menggabungkan kelezatan cokelat dengan kekuatan kopi, menciptakan minuman yang memanjakan lidah."
     }
   ]
