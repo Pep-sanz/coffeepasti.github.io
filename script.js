@@ -10,7 +10,6 @@ function getCoffee() {
     .then((Response) => Response.json())
     .then((Response) => {
       const coffee = Response.menu;
-      console.log(coffee);
       let cards = "";
       coffee.forEach((e) => (cards += myCard(e)));
       const wrapperCards = document.querySelector(".wrapper-card");
@@ -68,7 +67,6 @@ wrapperSearch.addEventListener("change", function (e) {
 });
 
 const myCard = (e) => {
-  console.log(e.poster);
   return `<div class="col-md-4 mb-5 gap-3">
     <div class="card" data-id="${e.id}">
       <img src="${e.poster}" class="card-img-top" alt="latte" />
