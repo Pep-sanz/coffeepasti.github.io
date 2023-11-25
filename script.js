@@ -6,10 +6,11 @@ menuToggle.addEventListener("click", (e) => {
 });
 
 function getCoffee() {
-  fetch("http://localhost:3000/menu")
+  fetch("http://localhost:3000/db")
     .then((Response) => Response.json())
-    .then((menu) => {
-      const coffee = menu;
+    .then((Response) => {
+      const coffee = Response.menu;
+      console.log(coffee);
       let cards = "";
       coffee.forEach((e) => (cards += myCard(e)));
       const wrapperCards = document.querySelector(".wrapper-card");
@@ -29,10 +30,10 @@ containerKategori.addEventListener("click", function (e) {
       getCoffee();
       return;
     }
-    fetch("http://localhost:3000/menu")
+    fetch("http://localhost:3000/db")
       .then((Response) => Response.json())
-      .then((menu) => {
-        const coffee = menu;
+      .then((Response) => {
+        const coffee = Response.menu;
         let content = "";
         coffee.forEach((e) => {
           if (e.kategori == kategori) {
@@ -49,10 +50,10 @@ containerKategori.addEventListener("click", function (e) {
 const wrapperSearch = document.querySelector(".wrapper-search");
 wrapperSearch.addEventListener("change", function (e) {
   const inputSearch = document.querySelector(".input-search").value;
-  fetch("http://localhost:3000/menu")
+  fetch("http://localhost:3000/db")
     .then((Response) => Response.json())
-    .then((menu) => {
-      const coffee = menu;
+    .then((Response) => {
+      const coffee = Response.menu;
       let content = "";
       coffee.forEach((e) => {
         if (e.name.toLowerCase() === inputSearch) {
