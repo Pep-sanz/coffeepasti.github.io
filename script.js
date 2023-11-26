@@ -38,6 +38,7 @@ containerKategori.addEventListener("click", function (e) {
           if (e.kategori == kategori) {
             content += myCard(e);
           }
+          console.log(e.poster);
         });
         const wrapperCards = document.querySelector(".wrapper-card");
         wrapperCards.innerHTML = content;
